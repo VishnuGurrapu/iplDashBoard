@@ -1,0 +1,71 @@
+/* Write your CSS here */
+
+.team-item-link {
+  width: 45%;
+  max-width: 400px;
+  background-color: #ffffff33;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  border-radius: 15px;
+  max-height: 220px;
+  border: 2px solid #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  .team-item-link {
+    width: 45%;
+    max-width: 400px;
+    background-color: #ffffff33;
+    padding: 6px 10px;
+    text-decoration: none;
+    margin-bottom: 5%;
+    justify-content: space-between;
+    border-radius: 10px;
+    max-height: 220px;
+    border: 1px solid #ffffff;
+  }
+}
+.team-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+@media only screen and (max-width: 767px) {
+  .team-container {
+    display: flex;
+    gap: 5%;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .team-image {
+    width: 30%;
+    height: 30%;
+    max-height: 80px;
+  }
+}
+.team-image {
+  height: 130px;
+  max-width: 130px;
+}
+
+.team-name {
+  font-size: 25px;
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-weight: 400;
+  flex-wrap: wrap;
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .team-name {
+    font-size: 13px;
+    color: #ffffff;
+    font-family: Bree Serif;
+    font-weight: 400;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}

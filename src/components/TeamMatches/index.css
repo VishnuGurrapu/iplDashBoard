@@ -1,0 +1,83 @@
+.teamMatches-container {
+  max-width: 1100px;
+  margin: auto;
+
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  transition: background-color 1s ease;
+}
+@media only screen and (max-width: 767px) {
+  .teamMatches-container {
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+  }
+}
+
+/* IPL team colors */
+.bg-rcb {
+  background-color: #a4261d;
+} /* Royal Challengers Bangalore */
+.bg-mi {
+  background-color: #4f5db0;
+} /* Mumbai Indians */
+.bg-kxp {
+  background-color: #d91c1f;
+} /* Punjab Kings (Light Red) */
+.bg-csk {
+  background-color: #f7db00;
+} /* Chennai Super Kings */
+.bg-rr {
+  background-color: #da237b;
+} /* Rajasthan Royals */
+.bg-dc {
+  background-color: #13418b;
+} /* Delhi Capitals */
+.bg-srh {
+  background-color: #f26d22;
+} /* Sunrisers Hyderabad */
+
+.bg-kkr {
+  background-color: #5755a7;
+} /* Kolkata Knight Riders (Dark Shade) */
+.bg-dark {
+  background-color: #0f172a;
+} /* Alternate Dark Shade */
+.bg-light {
+  background-color: #ffffff33;
+} /* Additional Light Shade */
+.banner {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.TeamMatches-heading {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 20px;
+  font-weight: 400;
+  align-self: flex-start;
+}
+@media only screen and (max-width: 767px) {
+  .banner {
+    width: 100%;
+    margin-bottom: 18px;
+  }
+}
+.teams-list {
+  padding: 0px;
+  list-style-type: none;
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

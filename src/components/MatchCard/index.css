@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.matchCard-container {
+  background-color: #1e293b;
+  border-radius: 15px;
+  font-family: Bree Serif;
+  color: #ffffff;
+  font-weight: 400;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  
+  /* Ensures all boxes have the same height */
+ /* Allows the boxes to grow and shrink equally */
+}
+@media only screen and (max-width: 767px) {
+  .matchCard-container {
+    width: 45%;
+  }
+}
+
+
+
+.matchCard-container p {
+  
+  flex-grow: 1; /* Makes paragraphs grow to fill the available space */
+  display: flex;
+  align-items: flex-start; /* Aligns the paragraph text at the start of the available space */
+}
+.para12 {
+  font-size: 20px;
+}
+.para22 {
+  font-size: 18px;
+}
+.para32 {
+  font-size: 15px;
+}
+.comLogo {
+  width: 50%;
+  height: 50%;
+}
+@media only screen and (max-width: 767px) {
+  .comLogo {
+    width: 40%;
+    height: 40%;
+  }
+}

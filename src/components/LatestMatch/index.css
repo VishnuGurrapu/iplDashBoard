@@ -1,0 +1,105 @@
+/* Write your CSS here */
+.latestMatch-container {
+  width: 100%;
+  background-color: #1e293b;
+  background-size: cover;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+
+  font-family: Bree Serif;
+  color: #ffffff;
+  font-weight: 400;
+  border-radius: 20px;
+}
+@media only screen and (max-width: 767px) {
+  .latestMatch-container {
+    padding: 12px;
+    margin-bottom: 18px;
+    flex-direction: column;
+
+    border-radius: 13px;
+  }
+}
+.OppsiteteamContainer {
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 767px) {
+  .OppsiteteamContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #475569;
+  }
+}
+.latestMatch-heading {
+  font-size: 25px;
+}
+.para1 {
+  font-size: 20px;
+}
+.para2 {
+  font-size: 18px;
+}
+.para3 {
+  font-size: 15px;
+}
+.competingLogo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+@media only screen and (max-width: 767px) {
+  .competingLogo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+  }
+}
+.competingLogo {
+  width: 100%;
+}
+.resultData-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 55%;
+}
+@media only screen and (max-width: 767px) {
+  .resultData-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 66%;
+  }
+}
+.gameData-container {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+@media only screen and (max-width: 767px) {
+  .gameData-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+.text {
+  font-family: Bree Serif;
+  color: #ffffff;
+  font-weight: 400;
+}
