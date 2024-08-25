@@ -14,9 +14,9 @@
   align-items: center;
   display: flex;
   text-align: center;
-  
+
   /* Ensures all boxes have the same height */
- /* Allows the boxes to grow and shrink equally */
+  /* Allows the boxes to grow and shrink equally */
 }
 @media only screen and (max-width: 767px) {
   .matchCard-container {
@@ -24,10 +24,7 @@
   }
 }
 
-
-
 .matchCard-container p {
-  
   flex-grow: 1; /* Makes paragraphs grow to fill the available space */
   display: flex;
   align-items: flex-start; /* Aligns the paragraph text at the start of the available space */
@@ -41,13 +38,27 @@
 .para32 {
   font-size: 15px;
 }
-.comLogo {
+.comLogoContainer {
   width: 50%;
-  height: 50%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.comLogo {
+  max-height: 100%;
+  max-width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  .comLogo {
+  .comLogoContainer {
     width: 40%;
-    height: 40%;
+    height: 25%;
   }
+}
+.bgGreen {
+  color: #18ed66;
+}
+.bgRed {
+  color: #e31a1a;
 }
