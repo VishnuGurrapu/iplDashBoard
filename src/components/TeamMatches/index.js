@@ -54,6 +54,7 @@ class TeamMatches extends Component {
   componentDidMount() {
     this.getTeamMatchData()
   }
+
   getTeamMatchData = async () => {
     const {match} = this.props
     const {params} = match
@@ -96,6 +97,7 @@ class TeamMatches extends Component {
 
     this.setState({teamMatches: updatedData, bgClass, isLoading: false})
   }
+
   render() {
     const {teamMatches, bgClass, isLoading} = this.state
     const {teamBannerUrl, latestMatchDetails, recentMatches} = teamMatches
