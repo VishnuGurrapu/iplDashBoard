@@ -104,7 +104,7 @@ class TeamMatches extends Component {
     return (
       <div className={`teamMatches-container ${bgClass}`}>
         {isLoading ? (
-          <div data-testid="loader">
+          <div testid="loader">
             <Loader type="Oval" color="#ffffff" height={50} width={50} />
           </div>
         ) : (
@@ -114,7 +114,7 @@ class TeamMatches extends Component {
             <LatestMatch latestMatchDetails={latestMatchDetails} />
             <ul className="teams-list">
               {recentMatches.map(item => (
-                <MatchCard teamData={item} key={item.id} />
+               <MatchCard teamData={item} key={item.id} /> 
               ))}
             </ul>
           </>
